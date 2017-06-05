@@ -32,7 +32,7 @@ class CreateAccounts extends AbstractMigration
             'default' => null,
             'null' => false,
         ]);
-        $table->addColumn('modifie', 'string', [
+        $table->addColumn('modified', 'string', [
             'default' => null,
             'limit' => 255,
             'null' => false,
