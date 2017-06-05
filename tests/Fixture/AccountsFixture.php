@@ -40,7 +40,7 @@ class AccountsFixture extends TestFixture
             'status' => 'enable',
             'password' => 'Lorem ipsum dolor sit amet',
             'created' => '2017-06-05 04:11:56',
-            'modifie' => 'Lorem ipsum dolor sit amet'
+            'modified' => 'Lorem ipsum dolor sit amet'
         ],
     ];
 }
