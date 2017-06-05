@@ -5,8 +5,8 @@ machine:
     - mysql
   environment:
     DEBUG: true
-    DATABASE_URL: "mysql://ubuntu:@localhost/cisample?unix_socket=/var/run/mysqld/mysqld.sock&encoding=utf8mb4&timezone=UTC&cacheMetadata=true"
-    DATABASE_TEST_URL: "mysql://ubuntu:@localhost/cisample_test?unix_socket=/var/run/mysqld/mysqld.sock&encoding=utf8mb4&timezone=UTC&cacheMetadata=true"
+    DATABASE_URL: "mysql://ubuntu:@localhost/13stylejp_develop?unix_socket=/var/run/mysqld/mysqld.sock&encoding=utf8mb4&timezone=UTC&cacheMetadata=true"
+    DATABASE_TEST_URL: "mysql://ubuntu:@localhost/13stylejp_test?unix_socket=/var/run/mysqld/mysqld.sock&encoding=utf8mb4&timezone=UTC&cacheMetadata=true"
 dependencies:
   cache_directories:
     - ~/.composer/cache
