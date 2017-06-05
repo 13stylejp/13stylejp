@@ -15,7 +15,7 @@ dependencies:
   post:
     - mysql -u ubuntu -e "CREATE DATABASE 13stylejp_develop CHARSET utf8mb4;"
     - mysql -u ubuntu -e "CREATE DATABASE 13stylejp_test CHARSET utf8mb4;"
-    - bin/cake migrations migrate
+    - ./bin/cake migrations migrate
 test:
   override:
     - mkdir -p $CIRCLE_TEST_REPORTS/phpunit
