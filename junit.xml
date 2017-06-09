@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="App Test Suite" tests="22" assertions="35" errors="0" failures="0" skipped="15" time="0.690738">
+    <testsuite name="App\Test\TestCase\ApplicationTest" file="C:\xampp\htdocs\cakephp\13stylejp\tests\TestCase\ApplicationTest.php" tests="1" assertions="3" errors="0" failures="0" skipped="0" time="0.032983">
+      <testcase name="testMiddleware" class="App\Test\TestCase\ApplicationTest" classname="App.Test.TestCase.ApplicationTest" file="C:\xampp\htdocs\cakephp\13stylejp\tests\TestCase\ApplicationTest.php" line="35" assertions="3" time="0.032983"/>
+    </testsuite>
+    <testsuite name="App\Test\TestCase\Controller\AccountsControllerTest" file="C:\xampp\htdocs\cakephp\13stylejp\tests\TestCase\Controller\AccountsControllerTest.php" tests="5" assertions="0" errors="0" failures="0" skipped="5" time="0.010621">
+      <testcase name="testIndex" class="App\Test\TestCase\Controller\AccountsControllerTest" classname="App.Test.TestCase.Controller.AccountsControllerTest" file="C:\xampp\htdocs\cakephp\13stylejp\tests\TestCase\Controller\AccountsControllerTest.php" line="27" assertions="0" time="0.009085">
+        <skipped/>
+      </testcase>
+      <testcase name="testView" class="App\Test\TestCase\Controller\AccountsControllerTest" classname="App.Test.TestCase.Controller.AccountsControllerTest" file="C:\xampp\htdocs\cakephp\13stylejp\tests\TestCase\Controller\AccountsControllerTest.php" line="37" assertions="0" time="0.000391">
+        <skipped/>
+      </testcase>
+      <testcase name="testAdd" class="App\Test\TestCase\Controller\AccountsControllerTest" classname="App.Test.TestCase.Controller.AccountsControllerTest" file="C:\xampp\htdocs\cakephp\13stylejp\tests\TestCase\Controller\AccountsControllerTest.php" line="47" assertions="0" time="0.000381">
+        <skipped/>
+      </testcase>
+      <testcase name="testEdit" class="App\Test\TestCase\Controller\AccountsControllerTest" classname="App.Test.TestCase.Controller.AccountsControllerTest" file="C:\xampp\htdocs\cakephp\13stylejp\tests\TestCase\Controller\AccountsControllerTest.php" line="57" assertions="0" time="0.000382">
+        <skipped/>
+      </testcase>
+      <testcase name="testDelete" class="App\Test\TestCase\Controller\AccountsControllerTest" classname="App.Test.TestCase.Controller.AccountsControllerTest" file="C:\xampp\htdocs\cakephp\13stylejp\tests\TestCase\Controller\AccountsControllerTest.php" line="67" assertions="0" time="0.000382">
+        <skipped/>
+      </testcase>
+    </testsuite>
+    <testsuite name="App\Test\TestCase\Controller\PagesControllerTest" file="C:\xampp\htdocs\cakephp\13stylejp\tests\TestCase\Controller\PagesControllerTest.php" tests="5" assertions="31" errors="0" failures="0" skipped="0" time="0.556786">
+      <testcase name="testMultipleGet" class="App\Test\TestCase\Controller\PagesControllerTest" classname="App.Test.TestCase.Controller.PagesControllerTest" file="C:\xampp\htdocs\cakephp\13stylejp\tests\TestCase\Controller\PagesControllerTest.php" line="35" assertions="8" time="0.192406"/>
+      <testcase name="testDisplay" class="App\Test\TestCase\Controller\PagesControllerTest" classname="App.Test.TestCase.Controller.PagesControllerTest" file="C:\xampp\htdocs\cakephp\13stylejp\tests\TestCase\Controller\PagesControllerTest.php" line="48" assertions="6" time="0.015776"/>
+      <testcase name="testMissingTemplate" class="App\Test\TestCase\Controller\PagesControllerTest" classname="App.Test.TestCase.Controller.PagesControllerTest" file="C:\xampp\htdocs\cakephp\13stylejp\tests\TestCase\Controller\PagesControllerTest.php" line="61" assertions="5" time="0.086329"/>
+      <testcase name="testMissingTemplateInDebug" class="App\Test\TestCase\Controller\PagesControllerTest" classname="App.Test.TestCase.Controller.PagesControllerTest" file="C:\xampp\htdocs\cakephp\13stylejp\tests\TestCase\Controller\PagesControllerTest.php" line="75" assertions="7" time="0.143973"/>
+      <testcase name="testDirectoryTraversalProtection" class="App\Test\TestCase\Controller\PagesControllerTest" classname="App.Test.TestCase.Controller.PagesControllerTest" file="C:\xampp\htdocs\cakephp\13stylejp\tests\TestCase\Controller\PagesControllerTest.php" line="91" assertions="5" time="0.118302"/>
+    </testsuite>
+    <testsuite name="App\Test\TestCase\Controller\PostsControllerTest" file="C:\xampp\htdocs\cakephp\13stylejp\tests\TestCase\Controller\PostsControllerTest.php" tests="5" assertions="0" errors="0" failures="0" skipped="5" time="0.002030">
+      <testcase name="testIndex" class="App\Test\TestCase\Controller\PostsControllerTest" classname="App.Test.TestCase.Controller.PostsControllerTest" file="C:\xampp\htdocs\cakephp\13stylejp\tests\TestCase\Controller\PostsControllerTest.php" line="27" assertions="0" time="0.000445">
+        <skipped/>
+      </testcase>
+      <testcase name="testView" class="App\Test\TestCase\Controller\PostsControllerTest" classname="App.Test.TestCase.Controller.PostsControllerTest" file="C:\xampp\htdocs\cakephp\13stylejp\tests\TestCase\Controller\PostsControllerTest.php" line="37" assertions="0" time="0.000424">
+        <skipped/>
+      </testcase>
+      <testcase name="testAdd" class="App\Test\TestCase\Controller\PostsControllerTest" classname="App.Test.TestCase.Controller.PostsControllerTest" file="C:\xampp\htdocs\cakephp\13stylejp\tests\TestCase\Controller\PostsControllerTest.php" line="47" assertions="0" time="0.000360">
+        <skipped/>
+      </testcase>
+      <testcase name="testEdit" class="App\Test\TestCase\Controller\PostsControllerTest" classname="App.Test.TestCase.Controller.PostsControllerTest" file="C:\xampp\htdocs\cakephp\13stylejp\tests\TestCase\Controller\PostsControllerTest.php" line="57" assertions="0" time="0.000386">
+        <skipped/>
+      </testcase>
+      <testcase name="testDelete" class="App\Test\TestCase\Controller\PostsControllerTest" classname="App.Test.TestCase.Controller.PostsControllerTest" file="C:\xampp\htdocs\cakephp\13stylejp\tests\TestCase\Controller\PostsControllerTest.php" line="67" assertions="0" time="0.000415">
+        <skipped/>
+      </testcase>
+    </testsuite>
+    <testsuite name="App\Test\TestCase\Model\Table\AccountsTableTest" file="C:\xampp\htdocs\cakephp\13stylejp\tests\TestCase\Model\Table\AccountsTableTest.php" tests="4" assertions="1" errors="0" failures="0" skipped="3" time="0.084542">
+      <testcase name="testInitialize" class="App\Test\TestCase\Model\Table\AccountsTableTest" classname="App.Test.TestCase.Model.Table.AccountsTableTest" file="C:\xampp\htdocs\cakephp\13stylejp\tests\TestCase\Model\Table\AccountsTableTest.php" line="59" assertions="0" time="0.029615">
+        <skipped/>
+      </testcase>
+      <testcase name="testValidationDefault" class="App\Test\TestCase\Model\Table\AccountsTableTest" classname="App.Test.TestCase.Model.Table.AccountsTableTest" file="C:\xampp\htdocs\cakephp\13stylejp\tests\TestCase\Model\Table\AccountsTableTest.php" line="69" assertions="0" time="0.000714">
+        <skipped/>
+      </testcase>
+      <testcase name="testBuildRules" class="App\Test\TestCase\Model\Table\AccountsTableTest" classname="App.Test.TestCase.Model.Table.AccountsTableTest" file="C:\xampp\htdocs\cakephp\13stylejp\tests\TestCase\Model\Table\AccountsTableTest.php" line="79" assertions="0" time="0.000640">
+        <skipped/>
+      </testcase>
+      <testcase name="testFindEnable" class="App\Test\TestCase\Model\Table\AccountsTableTest" classname="App.Test.TestCase.Model.Table.AccountsTableTest" file="C:\xampp\htdocs\cakephp\13stylejp\tests\TestCase\Model\Table\AccountsTableTest.php" line="84" assertions="1" time="0.053573"/>
+    </testsuite>
+    <testsuite name="App\Test\TestCase\Model\Table\PostsTableTest" file="C:\xampp\htdocs\cakephp\13stylejp\tests\TestCase\Model\Table\PostsTableTest.php" tests="2" assertions="0" errors="0" failures="0" skipped="2" time="0.003777">
+      <testcase name="testInitialize" class="App\Test\TestCase\Model\Table\PostsTableTest" classname="App.Test.TestCase.Model.Table.PostsTableTest" file="C:\xampp\htdocs\cakephp\13stylejp\tests\TestCase\Model\Table\PostsTableTest.php" line="59" assertions="0" time="0.003097">
+        <skipped/>
+      </testcase>
+      <testcase name="testValidationDefault" class="App\Test\TestCase\Model\Table\PostsTableTest" classname="App.Test.TestCase.Model.Table.PostsTableTest" file="C:\xampp\htdocs\cakephp\13stylejp\tests\TestCase\Model\Table\PostsTableTest.php" line="69" assertions="0" time="0.000680">
+        <skipped/>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testsuites>
