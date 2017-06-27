@@ -26,7 +26,10 @@ class AccountsControllerTest extends IntegrationTestCase
      */
     public function testIndex()
     {
-        $this->markTestIncomplete('Not implemented yet.');
+        $this->get('/accounts/index');
+        $this->assertResponseOk();
+	//$this->get('/accounts');
+        //$this->markTestIncomplete('Not implemented yet.');
     }
 
     /**
@@ -36,7 +39,9 @@ class AccountsControllerTest extends IntegrationTestCase
      */
     public function testView()
     {
-        $this->markTestIncomplete('Not implemented yet.');
+        $this->get('/accounts/view/1');
+        $this->assertResponseOk();
+        //$this->markTestIncomplete('Not implemented yet.');
     }
 
     /**
@@ -46,7 +51,9 @@ class AccountsControllerTest extends IntegrationTestCase
      */
     public function testAdd()
     {
-        $this->markTestIncomplete('Not implemented yet.');
+        $this->get('/accounts/add');
+        $this->assertResponseOk();
+        //$this->markTestIncomplete('Not implemented yet.');
     }
 
     /**
